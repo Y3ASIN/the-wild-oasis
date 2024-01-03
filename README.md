@@ -1,8 +1,8 @@
 # The Wild Oasis
 
-In react:
+React JS (Front-end):
  - React query, Render Props, Higher-order components, Compound components, reusable modal window, Unique context.
 
-In supabase:
+Supabase (Back-end):
   - CRUD operation.
 
