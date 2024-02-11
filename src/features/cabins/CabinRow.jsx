@@ -1,10 +1,10 @@
 import styled from "styled-components";
-
 import { HiPencil, HiSquare2Stack, HiTrash } from "react-icons/hi2";
+
 import { formatCurrency } from "../../utils/helpers";
-import CreateCabinForm from "./CreateCabinForm";
 import { useDeleteCabin } from "./useDeleteCabin";
 import { useCreateCabin } from "./useCreateCabin";
+import CreateCabinForm from "./CreateCabinForm";
 import Modal from "../../ui/Modal";
 import ConfirmDelete from "../../ui/ConfirmDelete";
 import Table from "../../ui/Table";
@@ -74,13 +74,15 @@ function CabinRow({ cabin }) {
         <span>&mdash;</span>
       )}
       <div>
-       
-
         <Modal>
           <Menus.Menu>
             <Menus.Toggle id={cabinID} />
             <Menus.List id={cabinID}>
-              <Menus.Button icon={<HiSquare2Stack />} onClick={handleDuplicate}>
+              <Menus.Button
+                icon={<HiSquare2Stack />}
+                onClick={handleDuplicate}
+                disabled={isCreating}
+              >
                 Duplicate
               </Menus.Button>
 
