@@ -1,6 +1,6 @@
 # The Wild Oasis
 
-A web application designed to efficiently manage hotel operations, including customer check-ins, check-outs, and a wide range of other tasks. The platform is primarily built for administrative users, allowing them to create and manage cabin or room details, track availability, and monitor customer bookings. This web application offers a complete solution for managing hotel operations with features like dark mode and light mode for an enhanced user experience. Administrators can easily create and manage Cabins, handle Bookings, and update User Settings. Additionally, the app provides options to modify overall Hotel Settings, giving admins full control over day-to-day operations, room availability, and customer preferences. The intuitive interface ensures seamless management of both hotel infrastructure and guest-related activities.
+A web application designed to efficiently manage hotel operations, including customer check-ins, check-outs, and a wide range of other tasks. The platform is primarily built for administrative users, allowing them to create and manage cabin or room details, track availability, and monitor customer bookings. 
 
 # Technologies
  - **Styled Components:** For writing dynamic, scoped CSS directly within JavaScript, providing a more modular and maintainable styling solution.
